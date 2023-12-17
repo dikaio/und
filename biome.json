@@ -1,0 +1,21 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": false,
+		"ignore": ["node_modules", ".next"],
+		"indentStyle": "tab",
+		"lineEnding": "lf",
+		"lineWidth": 80
+	},
+	"linter": {
+		"enabled": true,
+		"ignore": ["node_modules", ".next"],
+		"rules": {
+			"recommended": true
+		}
+	}
+}
